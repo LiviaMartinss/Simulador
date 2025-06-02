@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5e5dc;
+    background-image: url('https://www.transparenttextures.com/patterns/camo.png');
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #4b5320;
+}
+
+h1 {
+    color: #2e3d12;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    color: #2e3d12;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #4b5320;
+    margin-bottom: 1rem;
+    background-color: #fdfdf6;
+}
+
+button {
+    background-color: #556b2f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4b5e23;
+}
+
+#resultado {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2e3d12;
+    text-align: center;
+}
