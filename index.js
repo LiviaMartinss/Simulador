@@ -1,6 +1,13 @@
 function calcularNota() {
-    const cg = parseInt(document.getElementById('cg').value) || 0;
-    const ce = parseInt(document.getElementById('ce').value) || 0;
+    let cg = parseInt(document.getElementById('cg').value) || 0;
+    let ce = parseInt(document.getElementById('ce').value) || 0;
+
+    // Garante que os valores estejam dentro dos limites
+    cg = Math.max(0, Math.min(20, cg));
+    ce = Math.max(0, Math.min(30, ce));
+
+    document.getElementById('cg').value = cg;
+    document.getElementById('ce').value = ce;
 
     const notaCG = (cg / 20) * 10; // peso 0.5 * 500 = 250
     const notaCE = (ce / 30) * 10; // peso 0.333 * 750 = ~250
