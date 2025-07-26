@@ -9,6 +9,7 @@ function calcularNota() {
     document.getElementById('cg').value = cg;
     document.getElementById('ce').value = ce;
 
+    
     const notaCG = (cg / 20) * 10; // peso 0.5 * 500 = 250
     const notaCE = (ce / 30) * 10; // peso 0.333 * 750 = ~250
     const notaFinal = ((notaCG + (3 * notaCE)) / 4);
