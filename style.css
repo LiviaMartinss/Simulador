@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e5e5dc;
+    background-color: #151515;
     background-image: url('https://www.transparenttextures.com/patterns/camo.png');
     background-repeat: repeat;
     display: flex;
@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .container {
@@ -18,13 +18,14 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     max-width: 400px;
     width: 100%;
-    border: 2px solid #4b5320;
+    height: 50vh;
+    border: 2px solid #191919;
 }
 
 h1 {
     color: #2e3d12;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 label {
@@ -42,11 +43,12 @@ input {
 }
 
 button {
-    background-color: #556b2f;
+    background-color: #181817;
     color: white;
     padding: 0.5rem 1rem;
-    border: none;
+    border: 3px solid #305120;
     border-radius: 0.5rem;
+    margin-top: 1.5rem;
     cursor: pointer;
     width: 100%;
     font-size: 1rem;
