@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    min-height: 101vh;
+    min-height: 80vh;
 }
 html, body {
   overflow: hidden;
