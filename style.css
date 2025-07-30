@@ -13,6 +13,9 @@ body {
     padding: 2rem;
     min-height: 101vh;
 }
+html, body {
+  overflow: hidden;
+}
 
 .container {
     background: rgba(255, 255, 255, 0.95);
