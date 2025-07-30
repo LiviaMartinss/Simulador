@@ -25,7 +25,6 @@ html, body {
     width: 100%;
     border: 1px solid #7fff00;       /* borda verde neon */
     border-radius: 20px;
-    box-shadow: 0 4px 20px #80ff003f;    /* brilho verde */
 }
 
 h1 {
